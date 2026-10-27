@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legalitas — DarahKita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #18181B; --panel: #27272A; --border: #3F3F46; --ink: #FAFAFA; --muted: #A1A1AA; --blood: #EF4444; --font-serif: 'Instrument Serif', serif; --font-sans: 'Inter', sans-serif; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background-color: var(--bg); color: var(--ink); font-family: var(--font-sans); line-height: 1.7; display: flex; flex-direction: column; min-height: 100vh; }
+        a { color: var(--ink); text-decoration: none; }
+
+        /* Warning Banner */
+        .portfolio-banner { position: fixed; top: 0; left: 0; width: 100%; height: 40px; background: #2D1A1A; color: var(--blood); border-bottom: 1px solid var(--blood); display: flex; justify-content: center; align-items: center; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; z-index: 101; text-transform: uppercase; }
+
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 0 5vw; height: 72px; border-bottom: 1px solid var(--border); background: rgba(24, 24, 27, 0.9); position: fixed; top: 40px; width: 100%; z-index: 100; }
+        .nav-brand { font-family: var(--font-serif); font-size: 1.5rem; font-style: italic; display: flex; align-items: center; gap: 8px; }
+        .nav-brand span { width: 8px; height: 8px; background: var(--blood); border-radius: 50%; }
+        .back-link { font-size: 0.9rem; color: var(--muted); font-weight: 500; transition: 0.2s; }
+        .back-link:hover { color: var(--ink); }
+
+        .content { max-width: 800px; margin: 160px auto 60px; padding: 0 5vw; flex: 1; }
+        h1 { font-family: var(--font-serif); font-size: 3rem; margin-bottom: 40px; font-weight: 400; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+        h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 40px; margin-bottom: 16px; color: var(--ink); font-weight: 600;}
+        p { font-size: 1rem; color: var(--muted); margin-bottom: 20px; text-align: justify; }
+        ul { margin-left: 20px; margin-bottom: 20px; color: var(--muted); font-size: 1rem; }
+        li { margin-bottom: 8px; }
+
+        footer { padding: 40px 5vw; text-align: center; font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--border); }
+
+        @media (max-width: 768px) { .portfolio-banner { font-size: 0.65rem; } }
+    </style>
+</head>
+<body>
+
+    <!-- Warning Banner -->
+    <div class="portfolio-banner">
+        ⚠️ PORTFOLIO SHOWCASE — Web ini hanya simulasi untuk keperluan portofolio.
+    </div>
+
+    <nav>
+        <div class="nav-brand"><span></span> DarahKita.</div>
+        <a href="index.html" class="back-link">← Kembali ke Beranda</a>
+    </nav>
+
+    <div class="content">
+        <h1>Legal & Copyright.</h1>
+        
+        <h2>1. Medical Disclaimer</h2>
+        <p>DarahKita adalah platform komunitas yang mempertemukan pendonor dengan pihak yang membutuhkan. Kami <strong>bukan</strong> institusi medis resmi. Segala proses pengambilan darah, skrining kesehatan, dan transfusi wajib dilakukan oleh tenaga medis profesional (seperti PMI atau Rumah Sakit).</p>
+
+        <h2>2. Data Privacy</h2>
+        <p>Data yang Anda isi (Nama, Golongan Darah, Kontak, Domisili) hanya akan digunakan untuk keperluan koordinasi darurat dan dicocokkan dengan permintaan pasien. Kami tidak akan menjual atau menyebarluaskan data Anda ke pihak ketiga untuk kepentingan komersial.</p>
+
+        <h2>3. Code License (MIT)</h2>
+        <p>Kode sumber antarmuka (HTML, CSS, JS) dari situs web ini dilisensikan di bawah <strong>MIT License</strong>. Anda diizinkan untuk menyalin, memodifikasi, dan mendistribusikan kode ini, dengan syarat tetap mencantumkan hak cipta asli dari pembuatnya.</p>
+
+        <h2>4. Intellectual Property</h2>
+        <p>Aset visual (logo, maskot, tata letak antarmuka) adalah milik eksklusif Frost & Hog Cyber Team dan DarahKita. Dilarang mengklaim aset visual ini sebagai karya sendiri.</p>
+
+        <h2>5. Limitation of Liability</h2>
+        <p>Pengelola komunitas tidak bertanggung jawab atas komplikasi medis yang terjadi di luar platform. Setiap pendonor wajib melewati proses skrining medis standar sebelum mendonorkan darahnya.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 DarahKita Community. Designed by Frost & Hog Cyber Team.
+    </footer>
+
+</body>
+</html>
